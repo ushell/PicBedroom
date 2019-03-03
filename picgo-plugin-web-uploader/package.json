@@ -1,0 +1,60 @@
+{
+  "_from": "picgo-plugin-web-uploader",
+  "_id": "picgo-plugin-web-uploader@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-T2OFj2O7SWjJA4+TSR8f1XTr80jsWJwczh5FDitE54IFxa9TYCG6hYcbetPoTv3nJnsS4OcOcm3iitsyOUMmBQ==",
+  "_location": "/picgo-plugin-web-uploader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "picgo-plugin-web-uploader",
+    "name": "picgo-plugin-web-uploader",
+    "escapedName": "picgo-plugin-web-uploader",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/picgo-plugin-web-uploader/-/picgo-plugin-web-uploader-1.0.0.tgz",
+  "_shasum": "dbe8f2aa91fb8ac8e7b2be9a12503037dc28484f",
+  "_spec": "picgo-plugin-web-uploader",
+  "_where": "/home/ushell/.config/picgo",
+  "author": {
+    "name": "ZQian"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "自定义Web图床",
+  "devDependencies": {
+    "@varnxy/logger": "^1.1.2",
+    "eslint": "^5.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "homepage": "",
+  "keywords": [
+    "picgo",
+    "picgo-gui-plugin",
+    "picgo-plugin"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "picgo-plugin-web-uploader",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "major": "npm version major && git push origin master && git push origin --tags",
+    "minor": "npm version minor && git push origin master && git push origin --tags",
+    "patch": "npm version patch && git push origin master && git push origin --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
