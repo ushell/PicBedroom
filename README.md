@@ -4,7 +4,7 @@
 
 # 配置
 * [PicGo客户端](https://github.com/Molunerfinn/picgo)
-* [PicGo-web-uploader插件] (https://github.com/yuki-xin/picgo-plugin-web-uploader)
+* [PicGo-web-uploader插件](https://github.com/yuki-xin/picgo-plugin-web-uploader)
 * Server.php服务端, 要求php7+, swoole 4+
 * Redis
 
